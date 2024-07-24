@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title></title>    
+   </head>
+<body>
+    <img id="logo" src="Logo.png">
+    <header>
+        <nav>
+            <h1><a href="/index">Acasa</a></h1>
+            <h1><a href="/autentificare">Autentificare</a></h1>
+            <h1><a href="/chestionar">Chestionar</a></h1>
+        </nav>
+    </header>
+        <h2 id="title" style="text-align: center;">Chestionar despre Coffee & Tea</h2>
+
+        <main>
+            <% if(intrebari.length!=0) { %>
+                <fieldset>
+                    <form id="culoare" action="/rezultat-chestionar" method="post">
+                        <% for (let i=0; i<intrebari.length;  i++ ) { %>
+                            <%=intrebari[i].intrebare %>
+                            <br/>
+                            <ol>
+                            <% for (var j =0; j <intrebari[i].variante.length;  j++ ) { %>
+                                <li>
+                            <input type="radio" id="id<%=i%>" name="raspuns-<%= i %>" value="<%= j %>"/>
+                            <%=intrebari[i].variante[j] %>
+                        
+                                </li>
+                            <% } %> 
+                            
+                        </ol>
+                        <% } %>
+                        <button>Valideaza</button>
+    
+                    </form>
+                </fieldset>
+            <% } %>
+        </main>
+</body>
+</html>

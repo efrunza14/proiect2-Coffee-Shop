@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Pagina principala</title>
+        <link rel="stylesheet" href="stil.css">   
+    </head>
+<body>
+  <img id="logo" src="Logo.png">
+    <header>
+        <p>Bine ai venit, <%=aux %> </p>
+            <nav>
+                <h1><a href="/index">Acasa</a></h1><br/>
+                <h1><a href="/autentificare">Autentificare</a></h1><br/>
+                <h1><a href="/chestionar">Chestionar</a></h1><br/>
+            </nav>
+    </header>
+
+    <form action="/creare-bd" method="get">
+        <button>Creare BD</button>
+        </form>
+        <br/>
+        <form action="/inserare-bd" method="get">
+        <button>Încărcare BD</button>
+    </form>
+    <h1>All Objects from "produse" Table</h1>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Nume</th>
+        <th>Pret</th>
+        <th>Actions</th>
+      </tr>
+      <% objects.forEach(function(obj) { %>
+        <tr>
+          <td><%= obj.id %></td>
+          <td><%= obj.nume %></td>
+          <td><%= obj.pret %></td>
+          <td>
+            <form method="POST" action="/adauga-cos">
+                <input type="hidden" name="id" value="<%= obj.id %>">
+                <button class="adauga" type="submit">Adaugă in coș</button>
+            </form>
+          </td>
+        </tr>
+      <% }); %>
+    </table>
+
+    <br/><br/><br/>
+    <a href="vizualizare-cos"> Vizualizare coș </a>
+    </body>
+</html>

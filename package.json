@@ -1,0 +1,28 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Aplicatie care permite utilizatorilor sa cumpere produse din categoria ceai/cafea sau dintr-o sub-categorie a acesteia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDR-2023-2024/proiect-2-efrunza14.git"
+  },
+  "author": "Frunza Claudia-Elena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HDR-2023-2024/proiect-2-efrunza14/issues"
+  },
+  "homepage": "https://github.com/HDR-2023-2024/proiect-2-efrunza14#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.0",
+    "sqlite3": "^5.1.7"
+  }
+}

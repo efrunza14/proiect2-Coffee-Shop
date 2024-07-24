@@ -1,0 +1,15 @@
+<h1>Coș</h1>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Nume</th>
+        <th>Pret</th>
+      </tr>
+      <% objects.forEach(function(obj) { %>
+        <tr>
+          <td><%= obj.id %></td>
+          <td><%= obj.nume %></td>
+          <td><%= obj.pret %></td>
+        </tr>
+      <% }); %>
+    </table>

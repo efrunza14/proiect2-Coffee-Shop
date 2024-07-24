@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Autentificare</title>
+    </head>
+<body>
+    <img id="logo" src="Logo.png">
+    <header>
+
+            <!--<p style="color:red"> <%=aux %> </p>-->
+            <p style="color:rgb(118, 71, 33)"> Log in please ! </p>
+        <nav>
+            <h1><a href="/index">Acasa</a></h1>
+            <h1><a href="/autentificare">Autentificare</a></h1>
+            <h1><a href="/chestionar">Chestionar</a></h1>
+        </nav>
+    </header>
+    <main>
+        <div>
+        <form action="/verificare-autentificare" method="post">
+            <label>Nume utilizator:</label>
+            <input type="text" id="username" name="nume" placeholder="Introdu un nume de utilizator" >
+            <br><br>
+            <label>Parola:</label>
+            <input type="password" id="password" name="parola" placeholder="Introdu o parola puternica">
+            <br><br><button>Submit</button>
+        
+        </form>
+        </div>
+    </main>
+</body>
+
+
+</html>

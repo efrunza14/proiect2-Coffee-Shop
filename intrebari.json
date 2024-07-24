@@ -1,0 +1,54 @@
+{
+    "intrebari":[
+    {
+        "intrebare": "Care dintre următoarele plante este folosită pentru a face ceaiul verde?",
+        "variante": ["Camellia sinensis", "Coffea arabica", "Theobroma cacao"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Care dintre următoarele nu este un tip de ceai?",
+        "variante": ["Earl Grey", "Cappuccino", "Darjeeling"],
+        "corect": 1
+    },
+    {
+        "intrebare": "Câte tipuri de ceai sunt clasice în cultura chineză?",
+        "variante": ["2", "3", "4"],
+        "corect": 2
+    },
+    {
+        "intrebare": "Ce conține o cafea turcească tradițională?",
+        "variante": ["Cafea, apă și zahăr", "Cafea și apă", "Cafea și lapte"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Care este principalul ingredient al ceaiului matcha?",
+        "variante": ["Ceai verde", "Ceai negru", "Ceai oolong"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Care dintre următoarele este un efect al consumului de cafea?",
+        "variante": ["Reducerea riscului de diabet", "Scăderea tensiunii arteriale", "Cresterea ritmului cardiac"],
+        "corect": 2
+    },
+    {
+        "intrebare": "Care este cea mai mare țară producătoare de ceai din lume?",
+        "variante": ["India", "China", "Sri Lanka"],
+        "corect": 1
+    },
+    {
+        "intrebare": "Ce tip de ceai este cunoscut pentru aroma sa florală și dulce?",
+        "variante": ["Ceai negru", "Ceai verde", "Ceai oolong"],
+        "corect": 2
+    },
+    {
+        "intrebare": "Cine a introdus cafeaua în Europa?",
+        "variante": ["Venețienii", "Olandezii", "Turcii"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Ce conține cafeaua Arabica?",
+        "variante": ["Mai multă cofeină decât cafeaua Robusta", "Mai puțină cofeină decât cafeaua Robusta", "Aceeași cantitate de cofeină ca și cafeaua Robusta"],
+        "corect": 1
+    }
+    ]
+}
